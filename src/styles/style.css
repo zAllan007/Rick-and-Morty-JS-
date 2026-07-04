@@ -1,6 +1,26 @@
-@import url(./global.css);
+@import url("./global.css");
 
 /* Header */
+header {
+    background-color: var(--color-cyan);
+    color: var(--color-black);
+    display: flex;
+    justify-content: end;
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+    padding: 7px 0px 7px 0px;
+}
+
+.user-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 39.03px;
+    width: 224px;
+    color: var(--color-black);
+}
+
 
 /* Main */
 
