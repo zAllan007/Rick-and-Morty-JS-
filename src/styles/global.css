@@ -1,0 +1,28 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+
+/* Colors */
+
+--color-cyan: #11B0C8;
+--color-white: #ffffff;
+--color-gray: #1A1A1A;
+--color-black: #0F0F0F;
+
+/* Font Size */
+
+--font-size-h1: 40px;
+--font-size-h2: 40px;
+--font-size-h3: 20px;
+--font-size-body: 20px;
+--font-size-button: 20px;
+
+/* Font Family */
+
+--font-family-primary: "Poppins", sans-serif;
+}
