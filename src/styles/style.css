@@ -9,7 +9,7 @@ header {
     font-size: var(--font-size-body);
     font-family: var(--font-family-primary);
     font-weight: 700;
-    padding: 7px 0px 7px 0px;
+
 }
 
 .user-header {
@@ -19,10 +19,84 @@ header {
     height: 39.03px;
     width: 224px;
     color: var(--color-black);
+    padding: 7px 0px 7px 0px;
 }
 
 
 /* Main */
+
+main {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 191px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    width: 587px;
+    height: 413px;
+    gap: 25px;
+}
+
+.welcome-text h1 {
+    font-size: var(--font-size-h1);
+
+}
+
+.welcome-text span {
+    color: var(--color-cyan);
+}
+
+.buttons button{
+    display: flex   ;
+
+}
+
+.button1 button {
+    background-color: var(--color-cyan);
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+}
+
+.button2 button {
+    background-color: var(--color-black);
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    border: 1px solid var(--color-cyan)
+}
+
+.button1 a{
+    color: var(--color-white);
+}
+
+
+.button2 a{
+    color: var(--color-cyan);
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px rgba(0, 217, 255, 0.281);
+}
+
 
 /* Section */
 
