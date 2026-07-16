@@ -96,4 +96,8 @@ a {
 
 /* Section */
 
+section{
+    background-color: var(--color-gray);
+}
+
 /* Footer */
