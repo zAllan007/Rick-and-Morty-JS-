@@ -1,0 +1,98 @@
+@import url("./global.css");
+
+/* Header */
+header {
+    background-color: var(--color-cyan);
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px 35px;
+    color: var(--color-black);
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+}
+
+.user-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Main */
+
+main {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 191px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    width: 587px;
+    height: 413px;
+    gap: 25px;
+}
+
+.welcome-text h1 {
+    font-size: var(--font-size-h1);
+
+}
+
+.welcome-text span {
+    color: var(--color-cyan);
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button1,
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 25px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: 600;
+
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.button1 {
+    background-color: var(--color-cyan);
+    color: var(--color-white);
+}
+
+.button2 {
+    background-color: var(--color-black);
+    color: var(--color-cyan);
+    border: 1px solid var(--color-cyan);
+}
+
+.button1:hover,
+.button2:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 217, 255, 0.35);
+}
+
+
+/* Section */
+
+/* Footer */
