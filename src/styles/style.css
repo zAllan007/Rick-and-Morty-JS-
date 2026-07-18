@@ -21,6 +21,10 @@ header {
 
 /* Main */
 
+span{
+    color: var(--color-cyan);
+}
+
 main {
     background-color: var(--color-black);
     color: var(--color-white);
@@ -48,10 +52,6 @@ a {
 .welcome-text h1 {
     font-size: var(--font-size-h1);
 
-}
-
-.welcome-text span {
-    color: var(--color-cyan);
 }
 
 .buttons {
@@ -116,11 +116,21 @@ h2{
     font-size: var(--font-size-h2);
 }
 
-h2 span{
-    color: var(--color-cyan);
-}
 
 /* Cards */
 
 
 /* Footer */
+
+footer{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    padding: 60px 550px;
+    font-weight: 700;
+}
+
