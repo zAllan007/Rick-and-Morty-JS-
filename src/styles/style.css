@@ -98,6 +98,29 @@ a {
 
 section{
     background-color: var(--color-gray);
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 118px;
 }
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: var(--font-size-h2);
+}
+
+h2 span{
+    color: var(--color-cyan);
+}
+
+/* Cards */
+
 
 /* Footer */
